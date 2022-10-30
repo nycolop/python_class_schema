@@ -8,4 +8,4 @@ class Usuarios:
         self.contraseña = contraseña
 
     def __str__(self):
-            return f"ID: {self.id} - Titulo: {self.nombre} - Descripcion: {self.apellido} - Puesto: {self.puesto} - Correo: {self.correo_electronico} - Contraseña: {self.contraseña}"
+        return f"ID: {self.id} - Titulo: {self.nombre} - Descripcion: {self.apellido} - Puesto: {self.puesto} - Correo: {self.correo_electronico} - Contraseña: {self.contraseña}"
